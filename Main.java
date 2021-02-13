@@ -81,7 +81,8 @@ public class Main {
         m.flopArraySorter(input, q);
         Arrays.sort(input);
         m.flopSortedArray(input, output, q);
-        while (!q.isEmpty()) {
+        System.out.println(q.size() / 2 - 1);
+        while (!q.isEmpty() && q.size() > 2) {
             System.out.println(q.remove() + " " + q.remove());
         }
     }
