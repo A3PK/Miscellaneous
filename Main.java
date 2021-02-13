@@ -1,17 +1,21 @@
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
 
-    public int[] flopArraySorter(int[] args) {
+    public int[] flopArraySorter(int[] args, Queue<Integer> q) {
         if (args.length == 1) {
             return args;
         }
-        int[] next = flopArraySorter(Arrays.copyOf(args, args.length - 1));
+        int[] next = flopArraySorter(Arrays.copyOf(args, args.length - 1), q);
         int[] result = new int[2 + next.length];
         result[0] = args.length;
         result[1] = args[args.length - 1];
         System.arraycopy(next, 0, result, 2, next.length);
+        q.add(result[0]);
+        q.add(result[1]);
         return result;
     }
 
@@ -55,15 +59,13 @@ public class Main {
         return -1;
     }
 
-    public void flopSortedArray(int[] sorted, int[] target) {
+    public void flopSortedArray(int[] sorted, int[] target, Queue<Integer> q) {
         while (!Arrays.equals(sorted, target)) {
             int largestIdx = findIdx(getLargest(sorted), sorted);
             int currIdx = findIdx(largestIdx + 1, sorted);
-            System.out.println(getLargest(sorted));
-            System.out.println(largestIdx);
-            System.out.println(currIdx);
-            System.out.println(Arrays.toString(sorted));
-            flopLargestToPos(currIdx, sorted);
+            q.add(largestIdx);
+            q.add(currIdx);
+            flopLargestToPos(currIdx - 1, sorted);
         }
     }
 
@@ -74,8 +76,13 @@ public class Main {
         int[] output = Arrays.stream(sc.nextLine().split(" ")).mapToInt(Integer::parseInt)
                              .toArray();
         Main m = new Main();
+        Queue<Integer> q
+                = new LinkedList<>();
+        m.flopArraySorter(input, q);
         Arrays.sort(input);
-        m.flopSortedArray(input, output);
-        System.out.println(Arrays.toString(input));
+        m.flopSortedArray(input, output, q);
+        while (!q.isEmpty()) {
+            System.out.println(q.remove() + " " + q.remove());
+        }
     }
 }
