@@ -14,8 +14,8 @@ public class Main {
         result[0] = args.length;
         result[1] = args[args.length - 1];
         System.arraycopy(next, 0, result, 2, next.length);
-        q.add(result[0]);
-        q.add(result[1]);
+        q.add(findIdx(result[0], args));
+        q.add(findIdx(result[1], args));
         return result;
     }
 
