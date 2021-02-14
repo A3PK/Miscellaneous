@@ -1,89 +1,56 @@
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
-
-    public int[] flopArraySorter(int[] args, Queue<Integer> q) {
-        if (args.length == 1) {
-            return args;
+    public static boolean isConsonant(String s) {
+        if (s.equals("a") || s.equals("e") || s.equals("i") || s.equals("o") || s.equals("u")) {
+            return false;
         }
-        int[] next = flopArraySorter(Arrays.copyOf(args, args.length - 1), q);
-        int[] result = new int[2 + next.length];
-        result[0] = args.length;
-        result[1] = args[args.length - 1];
-        System.arraycopy(next, 0, result, 2, next.length);
-        q.add(findIdx(result[0], args));
-        q.add(findIdx(result[1], args));
-        return result;
+        return true;
     }
 
-    public static int getLargest(int[] ar) {
-        int[] a = Arrays.copyOf(ar, ar.length);
-        Arrays.sort(a);
-        int element = a[a.length - 1];
-        return element;
-    }
-
-    public void flopLargestToPos(int pos, int[] arr) {
-        int n = getLargest(arr);
-        int loc = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == n) {
-                loc = i;
-                break;
+    public static String returnClosestVowel(String s) {
+        char c = s.charAt(0);
+        int[] distances = {
+                (int) 'a' - (int) c, (int) 'e' - (int) c, (int) 'i' - (int) c, (int) 'o' - (int) c,
+                (int) 'u' - (int) c,
+                };
+        char[] chars = { 'a', 'e', 'i', 'o', 'u' };
+        int largest = 999999;
+        int largestIdx = 0;
+        for (int i = 0; i < distances.length; i++) {
+            distances[i] = Math.abs(distances[i]);
+            if (distances[i] < largest) {
+                largest = distances[i];
+                largestIdx = i;
             }
         }
-        arr[loc] = arr[pos];
-        arr[pos] = n;
+        return Character.toString(chars[largestIdx]);
     }
 
-    public boolean[] findEquals(int[] a, int[] b) {
-        boolean[] n = new boolean[a.length];
-        for (int i = 0; i < a.length; i++) {
-            n[i] = false;
-            if (a[i] == b[i]) {
-                n[i] = true;
-            }
+    public static String returnNextConsonant(String s) {
+        char c = s.charAt(0);
+        char next = (char) ((int) c + 1);
+        if (!isConsonant(Character.toString(next))) {
+            return returnNextConsonant(Character.toString(next));
         }
-        return n;
-    }
-
-    public int findIdx(int element, int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == element) {
-                return i;
-            }
-        }
-        return -1;
-    }
-
-    public void flopSortedArray(int[] sorted, int[] target, Queue<Integer> q) {
-        while (!Arrays.equals(sorted, target)) {
-            int largestIdx = findIdx(getLargest(sorted), sorted);
-            int currIdx = findIdx(largestIdx + 1, sorted);
-            q.add(largestIdx);
-            q.add(currIdx);
-            flopLargestToPos(currIdx - 1, sorted);
-        }
+        return Character.toString(next);
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.nextLine();
-        int[] input = Arrays.stream(sc.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
-        int[] output = Arrays.stream(sc.nextLine().split(" ")).mapToInt(Integer::parseInt)
-                             .toArray();
-        Main m = new Main();
-        Queue<Integer> q
-                = new LinkedList<>();
-        m.flopArraySorter(input, q);
-        Arrays.sort(input);
-        m.flopSortedArray(input, output, q);
-        System.out.println(q.size() / 2 - 1);
-        while (!q.isEmpty() && q.size() > 2) {
-            System.out.println(q.remove() + " " + q.remove());
+        String[] letters = sc.nextLine().split("");
+        String[] answer = new String[letters.length];
+        for (int i = 0; i < letters.length; i++) {
+            if (isConsonant(letters[i])) {
+                answer[i] = letters[i] + returnClosestVowel(letters[i]) + returnNextConsonant(
+                        letters[i]);
+            }
+            else {
+                answer[i] = letters[i];
+            }
+        }
+        for (String s : answer) {
+            System.out.print(s);
         }
     }
 }
