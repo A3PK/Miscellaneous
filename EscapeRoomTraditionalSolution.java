@@ -45,8 +45,7 @@ public class EscapeRoomTraditionalSolution {
         Queue<Integer> q = new LinkedList<>();
         Queue<Integer> row = new LinkedList<>();
         Queue<Integer> col = new LinkedList<>();
-        while (currRow != rows
-                || currCol != cols) {
+        while (currRow != rows || currCol != cols) {
             Integer[] divisors;
             if (!map.containsKey(n)) {
                 divisors = printDivisors(n);
