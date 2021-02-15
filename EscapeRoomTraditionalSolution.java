@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Main {
+public class EscapeRoomTraditionalSolution {
 
     public Integer[] printDivisors(int n) {
         ArrayList<Integer> list = new ArrayList<Integer>();
@@ -83,7 +83,7 @@ public class Main {
         InputStreamReader r = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(r);
 
-        Main m = new Main();
+        EscapeRoomTraditionalSolution m = new EscapeRoomTraditionalSolution();
         // System.out.println(Arrays.toString(m.printDivisors(sc.nextInt())));
         System.out.println(m.findIfPathExists(br) ? "yes" : "no");
     }
