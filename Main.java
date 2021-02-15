@@ -30,6 +30,9 @@ public class Main {
     public static String returnNextConsonant(String s) {
         char c = s.charAt(0);
         char next = (char) ((int) c + 1);
+        if (c == 'z') {
+            return Character.toString('z');
+        }
         if (!isConsonant(Character.toString(next))) {
             return returnNextConsonant(Character.toString(next));
         }
