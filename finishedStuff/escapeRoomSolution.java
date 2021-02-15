@@ -1,4 +1,4 @@
-/**
+package finishedStuff; /**
  * This is a submission for the 2018 Junior CCC contest, final problem.
  * The intializePages function must be called before any other function
  */

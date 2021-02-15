@@ -44,7 +44,7 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Animated" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Animated" />
+      <option name="MAIN_CLASS_NAME" value="finishedStuff.Animated" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
@@ -69,7 +69,7 @@
       <method v="2" />
     </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <option name="MAIN_CLASS_NAME" value="finishedStuff.HelloWorld" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
@@ -79,12 +79,12 @@
       <method v="2" />
     </configuration>
     <configuration name="QueueImplement" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="QueueImplement" />
+      <option name="MAIN_CLASS_NAME" value="finishedStuff.QueueImplement" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
     <configuration name="StackImplement" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="StackImplement" />
+      <option name="MAIN_CLASS_NAME" value="finishedStuff.StackImplement" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
