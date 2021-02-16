@@ -85,7 +85,6 @@ public class Main {
         BufferedReader br = new BufferedReader(r);
 
         Main m = new Main();
-        // System.out.println(Arrays.toString(m.printDivisors(sc.nextInt())));
         System.out.println(m.findIfPathExists(br) ? "yes" : "no");
     }
 }
