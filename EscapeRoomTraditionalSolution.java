@@ -2,11 +2,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class EscapeRoomTraditionalSolution {
+public class rain {
 
     public Integer[] printDivisors(int n) {
         ArrayList<Integer> list = new ArrayList<Integer>();
@@ -41,14 +41,16 @@ public class EscapeRoomTraditionalSolution {
         int currRow = 1;
         int currCol = 1;
         boolean done = true;
-        HashMap<Integer, Integer[]> map = new HashMap<>();
+        HashSet<Integer> map = new HashSet<>();
         Queue<Integer> q = new LinkedList<>();
         Queue<Integer> row = new LinkedList<>();
         Queue<Integer> col = new LinkedList<>();
-        while (currRow != rows || currCol != cols) {
+        while (currRow != rows
+                || currCol != cols) {
             Integer[] divisors;
-            if (!map.containsKey(n)) {
+            if (!map.contains(n)) {
                 divisors = printDivisors(n);
+                map.add(n);
                 for (int i : divisors) {
                     if ((i == rows && n / i == cols) || (i == cols && n / i == rows)) {
                         return true;
@@ -82,8 +84,8 @@ public class EscapeRoomTraditionalSolution {
         InputStreamReader r = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(r);
 
-        EscapeRoomTraditionalSolution m = new EscapeRoomTraditionalSolution();
-        // System.out.println(Arrays.toString(m.printDivisors(sc.nextInt())));
+        Main m = new Main();
         System.out.println(m.findIfPathExists(br) ? "yes" : "no");
     }
 }
+
