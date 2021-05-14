@@ -77,7 +77,7 @@ public class CC02018D2P3 {
         int[] input = Arrays.stream(sc.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
         int[] output = Arrays.stream(sc.nextLine().split(" ")).mapToInt(Integer::parseInt)
                              .toArray();
-        Main m = new Main();
+        CC02018D2P3 m = new CC02018D2P3();
         Queue<Integer> q
                 = new LinkedList<>();
         m.flopArraySorter(input, q);

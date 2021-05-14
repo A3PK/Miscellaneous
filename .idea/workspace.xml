@@ -42,9 +42,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.stf">
+  <component name="RunManager" selected="Application.BSTImplement">
     <configuration name="Animated" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="finishedStuff.Animated" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BSTImplement" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="BSTImplement" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
@@ -74,7 +79,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="finishedStuff.Main" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
@@ -92,7 +97,7 @@
       <method v="2" />
     </configuration>
     <configuration name="stf" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="stf" />
+      <option name="MAIN_CLASS_NAME" value="finishedStuff.stf" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
@@ -107,41 +112,41 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1877" y="413" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611567977256">
+    <state width="842" height="464" key="GridCell.Tab.0.bottom" timestamp="1620988690874">
       <screen x="0" y="23" width="2560" height="1273" />
     </state>
-    <state x="1877" y="413" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1273@0.23.2560.1273" timestamp="1611567977256" />
-    <state width="842" height="305" key="GridCell.Tab.0.bottom" timestamp="1613650421635">
+    <state width="842" height="464" key="GridCell.Tab.0.bottom/0.23.2560.1273@0.23.2560.1273" timestamp="1620988690874" />
+    <state width="842" height="464" key="GridCell.Tab.0.center" timestamp="1620988690873">
       <screen x="0" y="23" width="2560" height="1273" />
     </state>
-    <state width="842" height="305" key="GridCell.Tab.0.bottom/0.23.2560.1273@0.23.2560.1273" timestamp="1613650421635" />
-    <state width="842" height="305" key="GridCell.Tab.0.center" timestamp="1613650421635">
+    <state width="842" height="464" key="GridCell.Tab.0.center/0.23.2560.1273@0.23.2560.1273" timestamp="1620988690873" />
+    <state width="842" height="464" key="GridCell.Tab.0.left" timestamp="1620988690873">
       <screen x="0" y="23" width="2560" height="1273" />
     </state>
-    <state width="842" height="305" key="GridCell.Tab.0.center/0.23.2560.1273@0.23.2560.1273" timestamp="1613650421635" />
-    <state width="842" height="305" key="GridCell.Tab.0.left" timestamp="1613650421634">
+    <state width="842" height="464" key="GridCell.Tab.0.left/0.23.2560.1273@0.23.2560.1273" timestamp="1620988690873" />
+    <state width="842" height="464" key="GridCell.Tab.0.right" timestamp="1620988690874">
       <screen x="0" y="23" width="2560" height="1273" />
     </state>
-    <state width="842" height="305" key="GridCell.Tab.0.left/0.23.2560.1273@0.23.2560.1273" timestamp="1613650421634" />
-    <state width="842" height="305" key="GridCell.Tab.0.right" timestamp="1613650421635">
+    <state width="842" height="464" key="GridCell.Tab.0.right/0.23.2560.1273@0.23.2560.1273" timestamp="1620988690874" />
+    <state width="842" height="464" key="GridCell.Tab.1.bottom" timestamp="1620988690875">
       <screen x="0" y="23" width="2560" height="1273" />
     </state>
-    <state width="842" height="305" key="GridCell.Tab.0.right/0.23.2560.1273@0.23.2560.1273" timestamp="1613650421635" />
-    <state width="842" height="464" key="GridCell.Tab.1.bottom" timestamp="1613223032843">
+    <state width="842" height="464" key="GridCell.Tab.1.bottom/0.23.2560.1273@0.23.2560.1273" timestamp="1620988690875" />
+    <state width="842" height="464" key="GridCell.Tab.1.center" timestamp="1620988690875">
       <screen x="0" y="23" width="2560" height="1273" />
     </state>
-    <state width="842" height="464" key="GridCell.Tab.1.bottom/0.23.2560.1273@0.23.2560.1273" timestamp="1613223032843" />
-    <state width="842" height="464" key="GridCell.Tab.1.center" timestamp="1613223032843">
+    <state width="842" height="464" key="GridCell.Tab.1.center/0.23.2560.1273@0.23.2560.1273" timestamp="1620988690875" />
+    <state width="842" height="464" key="GridCell.Tab.1.left" timestamp="1620988690874">
       <screen x="0" y="23" width="2560" height="1273" />
     </state>
-    <state width="842" height="464" key="GridCell.Tab.1.center/0.23.2560.1273@0.23.2560.1273" timestamp="1613223032843" />
-    <state width="842" height="464" key="GridCell.Tab.1.left" timestamp="1613223032843">
+    <state width="842" height="464" key="GridCell.Tab.1.left/0.23.2560.1273@0.23.2560.1273" timestamp="1620988690874" />
+    <state width="842" height="464" key="GridCell.Tab.1.right" timestamp="1620988690875">
       <screen x="0" y="23" width="2560" height="1273" />
     </state>
-    <state width="842" height="464" key="GridCell.Tab.1.left/0.23.2560.1273@0.23.2560.1273" timestamp="1613223032843" />
-    <state width="842" height="464" key="GridCell.Tab.1.right" timestamp="1613223032843">
+    <state width="842" height="464" key="GridCell.Tab.1.right/0.23.2560.1273@0.23.2560.1273" timestamp="1620988690875" />
+    <state x="1687" y="395" width="873" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1620988352830">
       <screen x="0" y="23" width="2560" height="1273" />
     </state>
-    <state width="842" height="464" key="GridCell.Tab.1.right/0.23.2560.1273@0.23.2560.1273" timestamp="1613223032843" />
+    <state x="1687" y="395" width="873" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.2560.1273@0.23.2560.1273" timestamp="1620988352830" />
   </component>
 </project>

@@ -1,3 +1,5 @@
+package finishedStuff;
+
 import java.util.Scanner;
 
 public class stf {
