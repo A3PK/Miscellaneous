@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class rain {
+public class EscapeRoomTraditionalSolution {
 
     public Integer[] printDivisors(int n) {
         ArrayList<Integer> list = new ArrayList<Integer>();
@@ -86,7 +86,7 @@ public class rain {
         InputStreamReader r = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(r);
 
-        Main m = new Main();
+        EscapeRoomTraditionalSolution m = new EscapeRoomTraditionalSolution();
         System.out.println(m.findIfPathExists(br) ? "yes" : "no");
     }
 }

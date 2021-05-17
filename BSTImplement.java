@@ -5,7 +5,7 @@
  **************************************************************************** */
 
 public class BSTImplement {
-    private static class Node {
+    public static class Node {
         private int val;
         public Node left = null;
         public Node right = null;
@@ -35,6 +35,7 @@ public class BSTImplement {
             if (n < currNode.getVal()) {
                 if (currNode.left == null) {
                     currNode.left = new Node(n);
+                    currNode.left.setVal(n);
                     return;
                 }
                 currNode = currNode.left;
@@ -42,6 +43,7 @@ public class BSTImplement {
             else {
                 if (currNode.right == null) {
                     currNode.right = new Node(n);
+                    currNode.right.setVal(n);
                     return;
                 }
                 currNode = currNode.right;
@@ -134,17 +136,28 @@ public class BSTImplement {
         }
     }
 
-    public void printInorder(Node node) {
-        if (node == null) {
-            return;
+    public void inorderTraverse(Node node) {
+        if (node.left != null) {
+            inorderTraverse(node.left);
         }
-
-        System.out.println(node.left.getVal());
-        printInorder(node.left);
 
         System.out.print(node.getVal() + " ");
 
-        printInorder(node.right);
+        if (node.right != null) {
+            inorderTraverse(node.right);
+        }
+    }
+
+    public void printInorder() {
+        if (root == null) {
+            return;
+        }
+
+        inorderTraverse(root.left);
+
+        System.out.print(root.getVal() + " ");
+
+        inorderTraverse(root.right);
     }
 
     public static void main(String[] args) {
@@ -160,7 +173,7 @@ public class BSTImplement {
         b.insert(9);
         b.insert(10);
         b.insert(0);
-        System.out.println(b.find(8).getVal());
+        b.printInorder();
 
     }
 }

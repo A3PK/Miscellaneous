@@ -27,16 +27,18 @@ public class ServerSocketTest {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
             String str = "";
-            BSTImplement Bst = new BSTImplement();
+            BSTImplement bst = new BSTImplement(new BSTImplement.Node(0));
 
             while (!str.equals("stop")) {
                 str = din.readUTF();
-                // if (str.equals("over")) {
-                System.out.println("client says: " + str);
-                // else {
-                dout.writeUTF(str2);
+                if (str.startsWith("add")) {
+                    bst.insert(Integer.parseInt(str.substring(3)));
+                }
+                else if (str.startsWith("delete")) {
+                    bst.delete(Integer.parseInt(str.substring(6)));
+                }
+                //dout.writeUTF(str2);
                 dout.flush();
-                // }
             }
 
             din.close();
