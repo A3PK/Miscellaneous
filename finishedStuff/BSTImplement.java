@@ -4,6 +4,9 @@
  *  Description:
  **************************************************************************** */
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class BSTImplement {
     public static class Node {
         private int val;
@@ -148,16 +151,35 @@ public class BSTImplement {
         }
     }
 
-    public void printInorder() {
-        if (root == null) {
-            return;
+    public void inorderTraverse(Node node, Queue<Integer> q) {
+        if (node.left != null) {
+            inorderTraverse(node.left);
         }
 
-        inorderTraverse(root.left);
+        q.add(node.getVal());
 
-        System.out.print(root.getVal() + " ");
+        if (node.right != null) {
+            inorderTraverse(node.right);
+        }
+    }
 
-        inorderTraverse(root.right);
+    public Queue<Integer> printInorder() {
+        Queue<Integer> q = new LinkedList<Integer>();
+
+        if (root == null) {
+            return q;
+        }
+
+        if (root.left != null) {
+            inorderTraverse(root.left);
+        }
+
+        q.add(root.getVal());
+
+        if (root.right != null) {
+            inorderTraverse(root.right);
+        }
+        return q;
     }
 
     public static void main(String[] args) {

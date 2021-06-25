@@ -4,12 +4,11 @@
  *  Description:
  **************************************************************************** */
 
-import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
-import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.Queue;
 
 public class ServerSocketTest {
     public static void listen() {
@@ -24,7 +23,6 @@ public class ServerSocketTest {
 
             DataInputStream din = new DataInputStream(s.getInputStream());
             DataOutputStream dout = new DataOutputStream(s.getOutputStream());
-            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
             String str = "";
             BSTImplement bst = new BSTImplement(new BSTImplement.Node(0));
@@ -37,7 +35,10 @@ public class ServerSocketTest {
                 else if (str.startsWith("delete")) {
                     bst.delete(Integer.parseInt(str.substring(6)));
                 }
-                //dout.writeUTF(str2);
+                else if (str.startsWith("printall")) {
+                    Queue<Integer> q = bst.printInorder();
+                }
+                // dout.writeUTF(str2);
                 dout.flush();
             }
 

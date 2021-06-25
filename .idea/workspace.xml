@@ -25,6 +25,7 @@
   <component name="FindBugs-IDEA-Workspace">
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="ProjectId" id="1i5iyaTpHbt7CRhpiHiQ9zXq664" />
   <component name="ProjectViewState">
@@ -40,9 +41,9 @@
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
-  <component name="RunManager" selected="Application.BSTImplement">
+  <component name="RunManager" selected="Application.IOI_Algorithm_prep.Greedy">
     <configuration name="Animated" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="finishedStuff.Animated" />
       <module name="Algorithms, Part I" />
@@ -63,6 +64,11 @@
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
+    <configuration name="Codechef" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Codechef" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
     <configuration name="GaltonBoard" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="GaltonBoard" />
       <module name="Algorithms, Part I" />
@@ -78,9 +84,30 @@
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
+    <configuration name="IOI_Algorithm_prep.DivideAndConquer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="IOI_Algorithm_prep.DivideAndConquer" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IOI_Algorithm_prep.GraphRepresentation" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="IOI_Algorithm_prep.GraphRepresentation" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IOI_Algorithm_prep.Greedy" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="IOI_Algorithm_prep.Greedy" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="finishedStuff.Main" />
       <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Picturesque" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Picturesque" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="1" />
       <method v="2" />
     </configuration>
     <configuration name="QueueImplement" type="Application" factoryName="Application">
@@ -112,41 +139,69 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state width="842" height="305" key="GridCell.Tab.0.bottom" timestamp="1621257670710">
+    <state x="254" y="433" key="#com.intellij.ide.util.MemberChooser" timestamp="1624600561719">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="254" y="433" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1624600561719" />
+    <state x="351" y="504" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1624601294788">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="351" y="504" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1624601294788" />
+    <state x="1914" y="557" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1624440104965">
       <screen x="0" y="23" width="2560" height="1273" />
     </state>
-    <state width="842" height="305" key="GridCell.Tab.0.bottom/0.23.2560.1273@0.23.2560.1273" timestamp="1621257670710" />
-    <state width="842" height="305" key="GridCell.Tab.0.center" timestamp="1621257670709">
-      <screen x="0" y="23" width="2560" height="1273" />
+    <state x="1914" y="557" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.2560.1273@0.23.2560.1273" timestamp="1624440104965" />
+    <state width="1278" height="355" key="GridCell.Tab.0.bottom" timestamp="1624601874258">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="842" height="305" key="GridCell.Tab.0.center/0.23.2560.1273@0.23.2560.1273" timestamp="1621257670709" />
-    <state width="842" height="305" key="GridCell.Tab.0.left" timestamp="1621257670709">
-      <screen x="0" y="23" width="2560" height="1273" />
+    <state width="1278" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1624601874258" />
+    <state width="812" height="304" key="GridCell.Tab.0.bottom/0.23.2560.1273@0.23.2560.1273" timestamp="1624466475715" />
+    <state width="1278" height="355" key="GridCell.Tab.0.center" timestamp="1624601874258">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="842" height="305" key="GridCell.Tab.0.left/0.23.2560.1273@0.23.2560.1273" timestamp="1621257670709" />
-    <state width="842" height="305" key="GridCell.Tab.0.right" timestamp="1621257670709">
-      <screen x="0" y="23" width="2560" height="1273" />
+    <state width="1278" height="355" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1624601874258" />
+    <state width="812" height="304" key="GridCell.Tab.0.center/0.23.2560.1273@0.23.2560.1273" timestamp="1624466475714" />
+    <state width="1278" height="355" key="GridCell.Tab.0.left" timestamp="1624601874257">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="842" height="305" key="GridCell.Tab.0.right/0.23.2560.1273@0.23.2560.1273" timestamp="1621257670709" />
-    <state width="842" height="464" key="GridCell.Tab.1.bottom" timestamp="1620988690875">
-      <screen x="0" y="23" width="2560" height="1273" />
+    <state width="1278" height="355" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1624601874257" />
+    <state width="812" height="304" key="GridCell.Tab.0.left/0.23.2560.1273@0.23.2560.1273" timestamp="1624466475713" />
+    <state width="1278" height="355" key="GridCell.Tab.0.right" timestamp="1624601874258">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="842" height="464" key="GridCell.Tab.1.bottom/0.23.2560.1273@0.23.2560.1273" timestamp="1620988690875" />
-    <state width="842" height="464" key="GridCell.Tab.1.center" timestamp="1620988690875">
-      <screen x="0" y="23" width="2560" height="1273" />
+    <state width="1278" height="355" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1624601874258" />
+    <state width="812" height="304" key="GridCell.Tab.0.right/0.23.2560.1273@0.23.2560.1273" timestamp="1624466475715" />
+    <state width="883" height="539" key="GridCell.Tab.1.bottom" timestamp="1624514379626">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="842" height="464" key="GridCell.Tab.1.center/0.23.2560.1273@0.23.2560.1273" timestamp="1620988690875" />
-    <state width="842" height="464" key="GridCell.Tab.1.left" timestamp="1620988690874">
-      <screen x="0" y="23" width="2560" height="1273" />
+    <state width="883" height="539" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1624514379626" />
+    <state width="842" height="464" key="GridCell.Tab.1.bottom/0.23.2560.1273@0.23.2560.1273" timestamp="1624442860905" />
+    <state width="883" height="539" key="GridCell.Tab.1.center" timestamp="1624514379626">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="842" height="464" key="GridCell.Tab.1.left/0.23.2560.1273@0.23.2560.1273" timestamp="1620988690874" />
-    <state width="842" height="464" key="GridCell.Tab.1.right" timestamp="1620988690875">
-      <screen x="0" y="23" width="2560" height="1273" />
+    <state width="883" height="539" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1624514379626" />
+    <state width="842" height="464" key="GridCell.Tab.1.center/0.23.2560.1273@0.23.2560.1273" timestamp="1624442860904" />
+    <state width="883" height="539" key="GridCell.Tab.1.left" timestamp="1624514379625">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="842" height="464" key="GridCell.Tab.1.right/0.23.2560.1273@0.23.2560.1273" timestamp="1620988690875" />
+    <state width="883" height="539" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1624514379625" />
+    <state width="842" height="464" key="GridCell.Tab.1.left/0.23.2560.1273@0.23.2560.1273" timestamp="1624442860904" />
+    <state width="883" height="539" key="GridCell.Tab.1.right" timestamp="1624514379626">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="883" height="539" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1624514379626" />
+    <state width="842" height="464" key="GridCell.Tab.1.right/0.23.2560.1273@0.23.2560.1273" timestamp="1624442860904" />
+    <state x="148" y="359" key="SettingsEditor" timestamp="1624611963984">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="148" y="359" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1624611963984" />
     <state x="1687" y="395" width="873" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1620988352830">
       <screen x="0" y="23" width="2560" height="1273" />
     </state>
     <state x="1687" y="395" width="873" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.2560.1273@0.23.2560.1273" timestamp="1620988352830" />
+    <state x="106" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1624512575723">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="106" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1624512575723" />
   </component>
 </project>
