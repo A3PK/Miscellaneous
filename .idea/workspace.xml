@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="" />
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms, Part I.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms, Part I.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSTImplement$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSTImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientSocketTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/GraphRepresentation$AdjacencyMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/GraphRepresentation$BFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/GraphRepresentation$DirectedAdjacencyMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/GraphRepresentation$UndirectedAdjacencyMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/GraphRepresentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/IOI_Algorithm_prep/GraphRepresentation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/GraphRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOI_Algorithm_prep/GraphRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/Greedy$Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/IOI_Algorithm_prep/Greedy$Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/Greedy.class" beforeDir="false" afterPath="$PROJECT_DIR$/IOI_Algorithm_prep/Greedy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/Greedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOI_Algorithm_prep/Greedy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/Kruskals$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/IOI_Algorithm_prep/Kruskals$Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/Kruskals$Subset.class" beforeDir="false" afterPath="$PROJECT_DIR$/IOI_Algorithm_prep/Kruskals$Subset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/Kruskals.class" beforeDir="false" afterPath="$PROJECT_DIR$/IOI_Algorithm_prep/Kruskals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/WeightedGraphImplement$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/WeightedGraphImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOI_Algorithm_prep/WeightedGraphImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Picturesque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSocketTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/Animated.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/CC02018D2P3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/EscapeRoomTraditionalSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/QueueImplement$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/QueueImplement$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/QueueImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/StackImplement$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/StackImplement$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/StackImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/escapeRoomSolution$Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/escapeRoomSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/stf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedStuff/test.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +67,9 @@
     <toolWindowToFront>false</toolWindowToFront>
     <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1i5iyaTpHbt7CRhpiHiQ9zXq664" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
@@ -38,12 +81,22 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pAlgorithms, Part I" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Application.IOI_Algorithm_prep.Greedy">
+  <component name="RunManager" selected="JUnit.GeneralAdjacencyMatrixTest">
     <configuration name="Animated" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="finishedStuff.Animated" />
       <module name="Algorithms, Part I" />
@@ -99,6 +152,11 @@
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
+    <configuration name="IOI_Algorithm_prep.TestGraphRepresentation" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="IOI_Algorithm_prep.TestGraphRepresentation" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="finishedStuff.Main" />
       <module name="Algorithms, Part I" />
@@ -128,6 +186,89 @@
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
+    <configuration name="AdjacencyMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms, Part I" />
+      <option name="PACKAGE_NAME" value="IOI_Algorithm_prep.GraphTests" />
+      <option name="MAIN_CLASS_NAME" value="IOI_Algorithm_prep.GraphTests.AdjacencyMatrixTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdjacencyMatrixTest.testEdgeAdditionWithIllegalValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms, Part I" />
+      <option name="PACKAGE_NAME" value="IOI_Algorithm_prep.GraphTests" />
+      <option name="MAIN_CLASS_NAME" value="IOI_Algorithm_prep.GraphTests.AdjacencyMatrixTest" />
+      <option name="METHOD_NAME" value="testEdgeAdditionWithIllegalValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdjacencyMatrixTest,testNodeAddition and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms, Part I" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="IOI_Algorithm_prep.GraphTests.AdjacencyMatrixTest,testNodeAddition" />
+        <pattern testClass="IOI_Algorithm_prep.GraphTests.AdjacencyMatrixTest,testEdgeAddition" />
+        <pattern testClass="IOI_Algorithm_prep.GraphTests.AdjacencyMatrixTest,testConnectedNodeIterator" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdjacencyMatrixTest.testNodeAdditionWithIllegalValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms, Part I" />
+      <option name="PACKAGE_NAME" value="IOI_Algorithm_prep.GraphTests" />
+      <option name="MAIN_CLASS_NAME" value="IOI_Algorithm_prep.GraphTests.AdjacencyMatrixTest" />
+      <option name="METHOD_NAME" value="testNodeAdditionWithIllegalValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectedAdjacencyMatrix.testNodeAddition" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Algorithms, Part I" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="IOI_Algorithm_prep.Graph" />
+      <option name="MAIN_CLASS_NAME" value="IOI_Algorithm_prep.Graph.DirectedAdjacencyMatrix" />
+      <option name="METHOD_NAME" value="testNodeAddition" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneralAdjacencyMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms, Part I" />
+      <option name="PACKAGE_NAME" value="IOI_Algorithm_prep.GraphTests" />
+      <option name="MAIN_CLASS_NAME" value="IOI_Algorithm_prep.GraphTests.GeneralAdjacencyMatrixTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GeneralAdjacencyMatrixTest" />
+        <item itemvalue="JUnit.AdjacencyMatrixTest" />
+        <item itemvalue="JUnit.AdjacencyMatrixTest.testEdgeAdditionWithIllegalValues" />
+        <item itemvalue="JUnit.AdjacencyMatrixTest.testNodeAdditionWithIllegalValues" />
+        <item itemvalue="JUnit.AdjacencyMatrixTest,testNodeAddition and 2 more" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1624959412659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624959412659</updated>
+    </task>
+    <servers />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -139,6 +280,18 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
+    <state x="155" y="348" key="#DirectedAdjacencyMatrix.testNodeAddition" timestamp="1624961314615">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="155" y="348" key="#DirectedAdjacencyMatrix.testNodeAddition/0.0.2560.1440@0.0.2560.1440" timestamp="1624961314615" />
+    <state x="48" y="301" key="#Project_Structure" timestamp="1624955703223">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="48" y="301" key="#Project_Structure/0.0.2560.1440@0.0.2560.1440" timestamp="1624955703223" />
+    <state x="155" y="348" key="#TestGraphRepresentation.testNodeAddition" timestamp="1624961080377">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="155" y="348" key="#TestGraphRepresentation.testNodeAddition/0.0.2560.1440@0.0.2560.1440" timestamp="1624961080377" />
     <state x="254" y="433" key="#com.intellij.ide.util.MemberChooser" timestamp="1624600561719">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -151,25 +304,33 @@
       <screen x="0" y="23" width="2560" height="1273" />
     </state>
     <state x="1914" y="557" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.2560.1273@0.23.2560.1273" timestamp="1624440104965" />
-    <state width="1278" height="355" key="GridCell.Tab.0.bottom" timestamp="1624601874258">
+    <state x="335" y="634" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1624956465382">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1278" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1624601874258" />
+    <state x="335" y="634" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.2560.1440@0.0.2560.1440" timestamp="1624956465382" />
+    <state x="324" y="582" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1624975902592">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="324" y="582" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1440@0.0.2560.1440" timestamp="1624975902592" />
+    <state width="2560" height="355" key="GridCell.Tab.0.bottom" timestamp="1624987109735">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2560" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1624987109735" />
     <state width="812" height="304" key="GridCell.Tab.0.bottom/0.23.2560.1273@0.23.2560.1273" timestamp="1624466475715" />
-    <state width="1278" height="355" key="GridCell.Tab.0.center" timestamp="1624601874258">
+    <state width="2560" height="355" key="GridCell.Tab.0.center" timestamp="1624987109734">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1278" height="355" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1624601874258" />
+    <state width="2560" height="355" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1624987109734" />
     <state width="812" height="304" key="GridCell.Tab.0.center/0.23.2560.1273@0.23.2560.1273" timestamp="1624466475714" />
-    <state width="1278" height="355" key="GridCell.Tab.0.left" timestamp="1624601874257">
+    <state width="2560" height="355" key="GridCell.Tab.0.left" timestamp="1624987109734">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1278" height="355" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1624601874257" />
+    <state width="2560" height="355" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1624987109734" />
     <state width="812" height="304" key="GridCell.Tab.0.left/0.23.2560.1273@0.23.2560.1273" timestamp="1624466475713" />
-    <state width="1278" height="355" key="GridCell.Tab.0.right" timestamp="1624601874258">
+    <state width="2560" height="355" key="GridCell.Tab.0.right" timestamp="1624987109734">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1278" height="355" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1624601874258" />
+    <state width="2560" height="355" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1624987109734" />
     <state width="812" height="304" key="GridCell.Tab.0.right/0.23.2560.1273@0.23.2560.1273" timestamp="1624466475715" />
     <state width="883" height="539" key="GridCell.Tab.1.bottom" timestamp="1624514379626">
       <screen x="0" y="0" width="2560" height="1440" />
@@ -191,14 +352,26 @@
     </state>
     <state width="883" height="539" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1624514379626" />
     <state width="842" height="464" key="GridCell.Tab.1.right/0.23.2560.1273@0.23.2560.1273" timestamp="1624442860904" />
-    <state x="148" y="359" key="SettingsEditor" timestamp="1624611963984">
+    <state x="279" y="527" key="RefactorJ.ExtractClass" timestamp="1624957290719">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="148" y="359" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1624611963984" />
+    <state x="279" y="527" key="RefactorJ.ExtractClass/0.0.2560.1440@0.0.2560.1440" timestamp="1624957290719" />
+    <state x="148" y="359" key="SettingsEditor" timestamp="1624987152550">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="148" y="359" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1624987152550" />
+    <state x="272" y="619" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1624975387324">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="272" y="619" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1440@0.0.2560.1440" timestamp="1624975387324" />
     <state x="1687" y="395" width="873" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1620988352830">
       <screen x="0" y="23" width="2560" height="1273" />
     </state>
     <state x="1687" y="395" width="873" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.2560.1273@0.23.2560.1273" timestamp="1620988352830" />
+    <state x="230" y="383" key="new project wizard" timestamp="1624958806427">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="230" y="383" key="new project wizard/0.0.2560.1440@0.0.2560.1440" timestamp="1624958806427" />
     <state x="106" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1624512575723">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

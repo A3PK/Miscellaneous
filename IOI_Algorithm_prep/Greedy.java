@@ -61,7 +61,7 @@ public class Greedy {
         }
         return doables.toArray(new Activity[0]);
     }
-    
+
     public static void main(String[] args) {
         Activity[] activities = new Activity[10];
         for (int i = 0; i < 10; i++) {
